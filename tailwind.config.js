@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -8,5 +10,5 @@ module.exports = {
       second: '"Plus Jakarta Sans", sans-serif',
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
