@@ -612,6 +612,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -678,6 +682,10 @@ video {
 
 .grid-cols-\[repeat\(4\2c _198px\)\] {
   grid-template-columns: repeat(4, 198px);
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -835,6 +843,10 @@ video {
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
