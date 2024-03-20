@@ -552,6 +552,10 @@ video {
   position: relative;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
 .left-6 {
   left: 1.5rem;
 }
@@ -576,16 +580,16 @@ video {
   top: 1rem;
 }
 
-.top-\[11px\] {
-  top: 11px;
-}
-
 .top-\[50\%\] {
   top: 50%;
 }
 
-.left-4 {
-  left: 1rem;
+.top-\[-50\%\] {
+  top: -50%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .col-span-2 {
@@ -630,6 +634,42 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-\[170px\] {
+  margin-top: 170px;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-\[185px\] {
+  margin-top: 185px;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-\[14px\] {
+  margin-bottom: 14px;
+}
+
+.mt-\[190px\] {
+  margin-top: 190px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-\[14px\] {
+  margin-top: 14px;
 }
 
 .block {
@@ -696,13 +736,18 @@ video {
   width: 100%;
 }
 
-.translate-x-\[-50\%\] {
-  --tw-translate-x: -50%;
+.translate-y-\[-50\%\] {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-\[-50\%\] {
-  --tw-translate-y: -50%;
+.translate-y-\[50\%\] {
+  --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -792,16 +837,16 @@ video {
   border-radius: 20px;
 }
 
+.rounded-\[42px\] {
+  border-radius: 42px;
+}
+
 .rounded-\[62px\] {
   border-radius: 62px;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-\[42px\] {
-  border-radius: 42px;
 }
 
 .border-\[1\.5px\] {
@@ -865,6 +910,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -875,9 +925,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.py-\[190px\] {
+  padding-top: 190px;
+  padding-bottom: 190px;
 }
 
 .pb-10 {
@@ -886,6 +936,10 @@ video {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pt-10 {
@@ -900,12 +954,12 @@ video {
   padding-top: 2rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
+.pt-\[190px\] {
+  padding-top: 190px;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pb-\[78px\] {
+  padding-bottom: 78px;
 }
 
 .text-left {
@@ -954,6 +1008,10 @@ video {
   font-size: 25px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .text-\[32px\] {
   font-size: 32px;
 }
@@ -963,8 +1021,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .font-bold {
@@ -1000,6 +1058,10 @@ video {
   color: rgb(1 171 49 / var(--tw-text-opacity));
 }
 
+.text-black\/40 {
+  color: rgb(0 0 0 / 0.4);
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1008,10 +1070,6 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.text-black\/40 {
-  color: rgb(0 0 0 / 0.4);
 }
 
 .underline {
@@ -1024,10 +1082,6 @@ video {
 
 .opacity-60 {
   opacity: 0.6;
-}
-
-.opacity-40 {
-  opacity: 0.4;
 }
 
 .scrollbar-hide {
@@ -1045,32 +1099,4 @@ video {
 
 .placeholder\:text-\[14px\]::placeholder {
   font-size: 14px;
-}
-
-.placeholder\:text-white::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-white::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-black::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-black::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.placeholder\:opacity-40::-moz-placeholder {
-  opacity: 0.4;
-}
-
-.placeholder\:opacity-40::placeholder {
-  opacity: 0.4;
 }
