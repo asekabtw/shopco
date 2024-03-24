@@ -9,4 +9,5 @@ const menu = document.getElementById("menu");
 
 burger.addEventListener("click", (btn) => {
   menu.classList.toggle("show");
+  body.classList.toggle("overflow-hidden");
 });
