@@ -8,5 +8,5 @@ const body = document.getElementById("body");
 const menu = document.getElementById("menu");
 
 burger.addEventListener("click", (btn) => {
-  menu.classList.toggle("hidden");
+  menu.classList.toggle("show");
 });
