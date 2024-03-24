@@ -11,7 +11,7 @@
     ></script>
     <title>Shop Co</title>
   </head>
-  <body class="font-second">
+  <body id="body" class="font-second overflow-hidden">
     <!-- MAIN -->
     <main class="min-h-full">
       <!-- MAIN CONTAINER -->
@@ -28,14 +28,32 @@
         <nav class="flex justify-between py-5 px-4 bg-white">
           <!-- LOGO -->
           <div class="flex items-center gap-4">
-            <a href="" class="text-xl">
+            <!-- BURGER BUTTON -->
+            <button href="" class="text-xl z-20" id="burger">
               <i class="fa-solid fa-bars"></i>
-            </a>
+            </button>
+            <!-- end of BURGER BUTTON -->
             <h3 class="font-extrabold text-[25px] font-main">SHOP.CO</h3>
           </div>
           <!-- end of LOGO -->
           <!-- LINKS -->
-          <ul></ul>
+          <ul
+            id="menu"
+            class="absolute bg-white w-full min-h-full z-10 -ml-4 px-4 flex flex-col items-center pt-20 gap-4 text-center"
+          >
+            <li>
+              <a href="" class="text-xl">Shop</a>
+            </li>
+            <li>
+              <a href="" class="text-xl">On Sale</a>
+            </li>
+            <li>
+              <a href="" class="text-xl">New Arrivals</a>
+            </li>
+            <li>
+              <a href="" class="text-xl">Brands</a>
+            </li>
+          </ul>
           <!-- end of LINKS -->
           <!-- SEARCHBAR -->
           <div></div>
