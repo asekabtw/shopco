@@ -24,8 +24,9 @@
           </p>
         </div>
         <!-- end of DISCOUNT -->
+
         <!-- NAV -->
-        <nav class="flex justify-between py-5 px-4 bg-white">
+        <nav class="relative flex justify-between py-5 px-4 bg-white">
           <!-- LOGO -->
           <div class="flex items-center gap-4">
             <!-- BURGER BUTTON -->
@@ -36,6 +37,7 @@
             <h3 class="font-extrabold text-[25px] font-main">SHOP.CO</h3>
           </div>
           <!-- end of LOGO -->
+
           <!-- LINKS -->
           <ul
             id="menu"
@@ -55,20 +57,33 @@
             </li>
           </ul>
           <!-- end of LINKS -->
+
           <!-- SEARCHBAR -->
-          <div></div>
+          <div
+            id="searchBar"
+            class="absolute flex justify-center items-center w-full min-h-full left-0 top-0 px-3 py-4 z-20 hidden"
+          >
+            <input
+              class="w-full outline-none bg-[#F0F0F0] py-3 pl-5 rounded-[62px]"
+              type="text"
+              name=""
+              placeholder="Search for products..."
+              id=""
+            />
+          </div>
           <!-- end of SEARCHBAR -->
+
           <!-- CART -->
           <div class="flex items-center gap-3">
-            <a href="" class="text-xl">
+            <button id="searchBtn" class="text-xl">
               <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-            <a href="" class="text-xl">
+            </button>
+            <button class="text-xl">
               <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-            <a href="" class="text-xl">
+            </button>
+            <button class="text-xl">
               <i class="fa-solid fa-user"></i>
-            </a>
+            </button>
           </div>
           <!-- end of CART -->
         </nav>
