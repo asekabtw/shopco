@@ -608,6 +608,10 @@ video {
   right: 1rem;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1057,6 +1061,10 @@ video {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
 }
 
 .text-left {
