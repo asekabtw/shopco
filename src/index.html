@@ -43,13 +43,27 @@
             id="searchBar"
             class="absolute flex justify-center items-center w-full min-h-full left-0 top-0 px-3 py-4 z-20 hidden"
           >
-            <input
-              class="w-full outline-none bg-[#F0F0F0] py-3 pl-5 rounded-[62px]"
-              type="text"
-              name=""
-              placeholder="Search for products..."
-              id=""
-            />
+            <form class="relative w-full">
+              <button
+                id="searchBack"
+                class="absolute top-0 bottom-0 my-auto left-4 opacity-50"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <input
+                class="w-full outline-none bg-[#F0F0F0] py-3 pl-10 rounded-[62px]"
+                type="text"
+                name=""
+                placeholder="Search for products..."
+                id=""
+              />
+              <button
+                class="absolute top-0 bottom-0 right-4 opacity-50"
+                type="submit"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
           </div>
           <!-- end of SEARCHBAR -->
 
