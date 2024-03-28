@@ -616,12 +616,20 @@ video {
   z-index: 20;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
 
 .col-span-3 {
   grid-column: span 3 / span 3;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
 }
 
 .my-auto {
@@ -729,6 +737,10 @@ video {
   height: 1px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[25px\] {
   height: 25px;
 }
@@ -741,8 +753,8 @@ video {
   height: 100%;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-0 {
+  height: 0px;
 }
 
 .min-h-full {
@@ -952,6 +964,15 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FF3333\]\/10 {
+  background-color: rgb(255 51 51 / 0.1);
+}
+
+.bg-\[\#FF3333\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 51 51 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -1004,6 +1025,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pb-10 {
@@ -1113,14 +1144,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1139,18 +1162,6 @@ video {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.normal-case {
-  text-transform: none;
 }
 
 .leading-4 {
@@ -1200,12 +1211,22 @@ video {
   color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
-.text-\[15\] {
-  color: 15;
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#FF3333\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 51 51 / var(--tw-text-opacity));
 }
 
 .underline {
   text-decoration-line: underline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
 .opacity-10 {
@@ -1218,6 +1239,10 @@ video {
 
 .opacity-60 {
   opacity: 0.6;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .outline-none {
@@ -1233,6 +1258,14 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .scrollbar-hide {

@@ -22,3 +22,11 @@ searchBack.addEventListener("click", (btn) => {
   btn.preventDefault();
   searchBar.classList.add("hidden");
 });
+
+const arrivals = document.getElementById("arrivals");
+const showArrivals = document.getElementById("showArrivals");
+
+arrivals.addEventListener("click", (btn) => {
+  showArrivals.classList.toggle("absolute");
+  showArrivals.classList.toggle("h-0");
+});
