@@ -30,3 +30,11 @@ arrivals.addEventListener("click", (btn) => {
   showArrivals.classList.toggle("absolute");
   showArrivals.classList.toggle("h-0");
 });
+
+const topSelling = document.getElementById("topSelling");
+const showTop = document.getElementById("showTop");
+
+topSelling.addEventListener("click", (btn) => {
+  showTop.classList.toggle("absolute");
+  showTop.classList.toggle("h-0");
+});
