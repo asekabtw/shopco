@@ -1,7 +1,3 @@
-fetch("https://fakestoreapi.com/products")
-  .then((res) => res.json())
-  .then((json) => console.log(json));
-
 const burger = document.getElementById("burger");
 const searchBtn = document.getElementById("searchBtn");
 const searchBar = document.getElementById("searchBar");
