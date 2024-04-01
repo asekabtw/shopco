@@ -1261,3 +1261,9 @@ video {
 .placeholder\:text-\[14px\]::placeholder {
   font-size: 14px;
 }
+
+@media (min-width: 1280px) {
+  .xl\:text-\[14px\] {
+    font-size: 14px;
+  }
+}
