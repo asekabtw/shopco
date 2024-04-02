@@ -1263,7 +1263,15 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:text-\[14px\] {
     font-size: 14px;
+  }
+
+  .xl\:text-\[32px\] {
+    font-size: 32px;
   }
 }
