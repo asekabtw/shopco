@@ -26,7 +26,7 @@
         <!-- end of DISCOUNT -->
 
         <!-- NAV -->
-        <nav class="relative flex justify-between py-5 px-4 bg-white">
+        <nav class="relative flex gap-10 py-5 px-4 bg-white">
           <!-- LOGO -->
           <div class="flex items-center gap-4">
             <!-- BURGER BUTTON -->
@@ -87,9 +87,31 @@
           </div>
           <!-- end of SEARCHBAR -->
 
+          <!-- SEARCHBAR DESKTOP -->
+          <div id="searchBar" class="flex-grow">
+            <form
+              class="flex w-full bg-[#F0F0F0] py-3 pl-4 rounded-[62px] gap-3"
+            >
+              <button
+                class="top-0 bottom-0 my-auto left-2 opacity-50 text-[20px]"
+                type="submit"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                class="w-full outline-none bg-transparent"
+                type="text"
+                name=""
+                placeholder="Search for products..."
+                id=""
+              />
+            </form>
+          </div>
+          <!-- end of SEARCHBAR DESKTOP -->
+
           <!-- CART -->
           <div class="flex items-center gap-3">
-            <button id="searchBtn" class="text-xl">
+            <button id="searchBtn" class="text-xl xl:hidden">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
             <button class="text-xl">
