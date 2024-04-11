@@ -1322,6 +1322,10 @@ video {
     display: none;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:grid-cols-\[repeat\(2\2c _auto\)\] {
     grid-template-columns: repeat(2, auto);
   }
